@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void bubble_sort(int n,int a[])
+void ins_sort(int n,int a[])
 {
 	int i,j,temp;
 	for(i=0;i<n;i++)
@@ -23,6 +23,6 @@ int main()
 {
 	int ar[] = {5,4,2,9,12,6,14,0};
 	int size = sizeof(ar)/sizeof(ar[0]);
-	bubble_sort(size,ar);
+	ins_sort(size,ar);
 	return 0;
 }
